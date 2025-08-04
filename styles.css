@@ -1,0 +1,100 @@
+/* Main Styles */
+body {
+  background-color: #1a1a1a;
+  color: #f8f9fa;
+}
+
+/* Hero Section with Background Image */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+              url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+/* Responsive Hero Padding */
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+}
+
+/* Content Sections */
+.custom-section {
+  background-color: #2d2d2d;
+  border-radius: 8px;
+}
+
+/* Cards */
+.custom-card {
+  background-color: #3a3a3a;
+  border: none;
+  color: #ffffff;
+}
+
+/* Text Styles */
+.text-muted {
+  color: #adb5bd !important;
+}
+
+/* Form Elements */
+.form-control {
+  background-color: #3a3a3a;
+  border: 1px solid #495057;
+  color: #ffffff;
+}
+
+.form-control:focus {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border-color: #6c757d;
+}
+
+/* Links */
+a {
+  color: #6ea8fe;
+}
+
+/* Buttons Hover Effect */
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Footer */
+footer {
+  background-color: #121212;
+}
+
+/* Meal Image */
+#mealImage {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* Carousel Container */
+#carouselExample {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Order Cards */
+.order-card {
+  transition: transform 0.3s;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
